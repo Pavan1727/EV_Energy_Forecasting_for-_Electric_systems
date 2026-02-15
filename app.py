@@ -12,7 +12,7 @@ model = tf.keras.models.load_model("ev_transfer_model.keras")
 
 scaler_X = joblib.load("scaler_X.pkl")
 scaler_y = joblib.load("scaler_y.pkl")
-vehicle_encoder = joblib.load("vehicle_encoder.pkl")
+vehicle_encoder = joblib.load("vehicle_encoder_1.pkl")
 
 # -------------------------------
 # Page Config
